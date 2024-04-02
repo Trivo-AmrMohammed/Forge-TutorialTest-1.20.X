@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.trivo.tutorialmodtrivo.TutorialModTrivo;
+import net.trivo.tutorialmodtrivo.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -18,10 +19,13 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon( () -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //Items
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(Items.NETHER_STAR);
 
+                        //Blocks
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
                     .build());
 

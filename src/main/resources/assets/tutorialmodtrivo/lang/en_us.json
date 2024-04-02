@@ -1,6 +1,9 @@
 {
   "item.tutorialmodtrivo.sapphire": "Sapphire",
   "item.tutorialmodtrivo.raw_sapphire": "Raw Sapphire",
+  "item.tutorialmodtrivo.scythe": "Scythe",
+
+  "block.tutorialmodtrivo.sapphire_block": "Block of Sapphire",
 
   "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
 }

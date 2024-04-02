@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.trivo.tutorialmodtrivo.block.ModBlocks;
 import net.trivo.tutorialmodtrivo.item.ModCreativeModTabs;
 import net.trivo.tutorialmodtrivo.item.ModItems;
 import org.slf4j.Logger;
@@ -29,6 +30,7 @@ public class TutorialModTrivo
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -49,6 +51,9 @@ public class TutorialModTrivo
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
+        }
+            if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+                event.accept(ModItems.SCYTHE);
         }
     }
 
