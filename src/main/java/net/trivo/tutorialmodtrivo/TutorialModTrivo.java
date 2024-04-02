@@ -55,6 +55,11 @@ public class TutorialModTrivo
             if (event.getTabKey() == CreativeModeTabs.COMBAT) {
                 event.accept(ModItems.SCYTHE);
         }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.CHARCOAL_BLOCK);
+        }
     }
 
     @SubscribeEvent
