@@ -2,10 +2,16 @@
   "item.tutorialmodtrivo.sapphire": "Sapphire",
   "item.tutorialmodtrivo.raw_sapphire": "Raw Sapphire",
   "item.tutorialmodtrivo.scythe": "Scythe",
+  "item.tutorialmodtrivo.metal_detector": "Metal Detector",
 
   "block.tutorialmodtrivo.sapphire_block": "Block of Sapphire",
   "block.tutorialmodtrivo.raw_sapphire_block": "Block of Raw Sapphire",
   "block.tutorialmodtrivo.charcoal_block": "Block of Charcoal",
 
-  "creativetab.tutorial_tab": "Tutorial Tab"
+  "block.tutorialmodtrivo.sapphire_ore": "Sapphire Ore",
+  "block.tutorialmodtrivo.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.tutorialmodtrivo.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.tutorialmodtrivo.end_stone_sapphire_ore": "End Stone Sapphire Ore",
+
+  "creativetab.tutorial_tab": "Trivo Mod"
 }

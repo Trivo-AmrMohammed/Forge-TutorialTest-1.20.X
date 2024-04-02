@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmodtrivo:sapphire"
+    }
+  },
+  "result": {
+    "item": "tutorialmodtrivo:sapphire_block"
+  }
+}

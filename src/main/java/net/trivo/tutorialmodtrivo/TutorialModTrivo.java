@@ -60,6 +60,12 @@ public class TutorialModTrivo
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
             event.accept(ModBlocks.CHARCOAL_BLOCK);
         }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.SAPPHIRE_ORE);
+            event.accept(ModBlocks.NETHER_SAPPHIRE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+            event.accept(ModBlocks.END_STONE_SAPPHIRE_ORE);
+        }
     }
 
     @SubscribeEvent

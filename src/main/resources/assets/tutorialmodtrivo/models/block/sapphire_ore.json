@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tutorialmodtrivo:block/sapphire_ore"
+  }
+}
