@@ -16,7 +16,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialModTrivo.MOD_ID);
 
     public  static  final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
-            () -> CreativeModeTab.builder().icon( () -> new ItemStack(ModItems.SAPPHIRE.get()))
+            () -> CreativeModeTab.builder().icon( () -> new ItemStack(ModItems.RAW_SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         //Items
@@ -26,6 +26,9 @@ public class ModCreativeModTabs {
 
                         //Blocks
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.CHARCOAL_BLOCK.get());
+
                     })
                     .build());
 
